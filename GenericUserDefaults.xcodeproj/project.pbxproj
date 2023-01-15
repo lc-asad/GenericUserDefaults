@@ -16,6 +16,7 @@
 		46D576AA2972C0DC00A4D32A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D576A82972C0DC00A4D32A /* Main.storyboard */; };
 		46D576AC2972C0DE00A4D32A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D576AB2972C0DE00A4D32A /* Assets.xcassets */; };
 		46D576AF2972C0DE00A4D32A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D576AD2972C0DE00A4D32A /* LaunchScreen.storyboard */; };
+		46D576B52972CCB500A4D32A /* UserDefaultsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D576B42972CCB500A4D32A /* UserDefaultsWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		46D576AB2972C0DE00A4D32A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46D576AE2972C0DE00A4D32A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46D576B02972C0DE00A4D32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D576B42972CCB500A4D32A /* UserDefaultsWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				46D576872972BF5600A4D32A /* GenericUserDefaults.h */,
+				46D576B42972CCB500A4D32A /* UserDefaultsWrapper.swift */,
 			);
 			path = GenericUserDefaults;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				TargetAttributes = {
 					46D576832972BF5600A4D32A = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
 					};
 					46D5768B2972BF5600A4D32A = {
 						CreatedOnToolsVersion = 14.0;
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D576B52972CCB500A4D32A /* UserDefaultsWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +438,7 @@
 		46D576972972BF5600A4D32A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -453,6 +459,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +468,7 @@
 		46D576982972BF5600A4D32A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -489,6 +497,7 @@
 		46D5769A2972BF5600A4D32A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -504,6 +513,7 @@
 		46D5769B2972BF5600A4D32A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
