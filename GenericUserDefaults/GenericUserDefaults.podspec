@@ -1,11 +1,3 @@
-#
-#  Be sure to run `pod spec lint GenericUserDefaults.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
-
 Pod::Spec.new do |spec|
 
   spec.name         = "GenericUserDefaults"
@@ -18,8 +10,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "Asad Ullah" => "asad_622@hotmail.com" }
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/lc-asad/GenericUserDefaults.git", :tag => "1.0.0" }
-  spec.source_files  = "GenericUserDefaults/**/*"
-  # spec.exclude_files = "Classes/Exclude"
-  # spec.public_header_files = "Classes/**/*.h"
-  # spec.dependency "JSONKit", "~> 1.4"
+  spec.source_files = "GenericUserDefaults/**/*"
+ 
 end
