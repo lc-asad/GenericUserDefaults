@@ -9,7 +9,6 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author       = { "Asad Ullah" => "asad_622@hotmail.com" }
   spec.platform     = :ios, "11.0"
-  # spec.swift_versions = "5.0"
   spec.source       = { :git => "https://github.com/lc-asad/GenericUserDefaults.git", :tag => "1.0.1" }
   spec.source_files = "GenericUserDefaults/**/*"
  
