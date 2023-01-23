@@ -1,0 +1,6 @@
+framework module GenericUserDefaults {
+  umbrella header "GenericUserDefaults-umbrella.h"
+
+  export *
+  module * { export * }
+}

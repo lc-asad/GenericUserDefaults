@@ -1,0 +1,16 @@
+PODS:
+  - GenericUserDefaults (1.0.2)
+
+DEPENDENCIES:
+  - GenericUserDefaults (from `../GenericUserDefaults/`)
+
+EXTERNAL SOURCES:
+  GenericUserDefaults:
+    :path: "../GenericUserDefaults/"
+
+SPEC CHECKSUMS:
+  GenericUserDefaults: 427aa6d9789ae267f72eadee37faabb9c59d176d
+
+PODFILE CHECKSUM: 61af5740f8c5c5c63f3c30718660d43e9bc986b8
+
+COCOAPODS: 1.11.3
