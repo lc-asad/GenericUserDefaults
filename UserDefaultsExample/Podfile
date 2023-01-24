@@ -6,6 +6,6 @@ target 'UserDefaultsExample' do
   use_frameworks!
 
   # Pods for UserDefaultsExample
-    pod 'GenericUserDefaults', :path => "../GenericUserDefaults/"
+    pod 'GenericUserDefaults'
 
 end

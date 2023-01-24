@@ -1,16 +1,16 @@
 PODS:
-  - GenericUserDefaults (1.0.2)
+  - GenericUserDefaults (1.0.0)
 
 DEPENDENCIES:
-  - GenericUserDefaults (from `../GenericUserDefaults/`)
+  - GenericUserDefaults
 
-EXTERNAL SOURCES:
-  GenericUserDefaults:
-    :path: "../GenericUserDefaults/"
+SPEC REPOS:
+  trunk:
+    - GenericUserDefaults
 
 SPEC CHECKSUMS:
-  GenericUserDefaults: 427aa6d9789ae267f72eadee37faabb9c59d176d
+  GenericUserDefaults: 6693ab7711ca8d26052ad4fea1a25c6bf2af2957
 
-PODFILE CHECKSUM: 61af5740f8c5c5c63f3c30718660d43e9bc986b8
+PODFILE CHECKSUM: 5875b48d77dc18204e076fbc6bd678aa5691eb42
 
 COCOAPODS: 1.11.3
